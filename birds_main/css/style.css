@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #DDDDDD;
+}
+
+body {
+  background-image: url('../images/pigeon-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  padding-top: 15px;
+}
+
+a {
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: currentColor;
+  text-underline-offset: 3px;
+}
+
+:focus {
+  outline: none;
+  box-shadow: none;
+  border: 6px dashed #417243;
+}
+
+h1 {
+  text-align: center;
+  line-height: 2;
+  font-family: 'Syncopate', sans-serif;
+}
+
+table {
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+table th,
+table td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+table thead th {
+  min-width: 125px;
+  padding: 10px;
+  background: #7e0820;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+table tbody tr:nth-child(even) td,
+table tbody tr:nth-child(even) th {
+  background: #D1D1D1;
+}
+
+table tbody tr:nth-child(odd) td,
+table tbody tr:nth-child(odd) th {
+  background: transparent;
+}
+
+table tbody tr:hover td,
+table tbody tr:hover th {
+  background-color: rgba(126,8,32,0.25);
+}
+
+table tbody th:first-child,
+table tbody td:first-child {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-weight: 700;
+}
+
+table thead tr:first-child th:first-child,
+table tbody tr:first-child td:first-child {
+  border-top-left-radius: 20px;
+}
+
+table thead tr:first-child th:last-child,
+table tbody tr:first-child td:last-child {
+  border-top-right-radius: 20px;
+}
+
+table tbody tr:last-child td:first-child,
+table tbody tr:last-child th:first-child {
+  border-bottom-left-radius: 20px;
+}
+
+table tbody tr:last-child td:last-child,
+table tbody tr:last-child th:last-child {
+  border-bottom-right-radius: 20px;
+}
+
